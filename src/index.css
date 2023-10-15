@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.currentReview {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.nextReview {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.prevReview {
+  opacity: 0;
+  transform: translateX(-100%);
+}
